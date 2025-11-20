@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "title": "Executive 3BR Apartment",
+    "location": "Thindigua, Kiambu",
+    "price": 12500000,
+    "beds": 3,
+    "image": "assets/sample1.jpg",
+    "description": "Spacious executive 3 bedroom apartment."
+  },
+  {
+    "id": "p2",
+    "title": "Modern 2BR Rental",
+    "location": "Kasarani, Nairobi",
+    "price": 38000,
+    "beds": 2,
+    "image": "assets/sample2.jpg",
+    "description": "Modern 2 bedroom apartment for rent."
+  },
+  {
+    "id": "p3",
+    "title": "Luxury 5BR Villa",
+    "location": "Runda, Nairobi",
+    "price": 45000000,
+    "beds": 5,
+    "image": "assets/sample3.jpg",
+    "description": "Luxury villa with pool and garden."
+  }
+]
