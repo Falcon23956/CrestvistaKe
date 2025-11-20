@@ -1,0 +1,8 @@
+
+body { font-family: Arial; margin:0; }
+.navbar { display:flex; justify-content:space-between; padding:20px; background:#0a3a6a; color:white; }
+.nav-left { display:flex; align-items:center; }
+.site-logo { width:60px; margin-right:10px; }
+.nav-links a { color:white; margin:0 10px; text-decoration:none; }
+.contact-icons { display:flex; justify-content:center; gap:30px; margin:40px 0; }
+.contact-icons img { width:24px; }
