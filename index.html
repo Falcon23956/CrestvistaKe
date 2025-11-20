@@ -1,37 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Crestvista Properties LTD</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crestvista Properties LTD</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header class="navbar">
-  <div class="nav-left">
-      <img src="assets/icons/logo.png" class="site-logo">
-      <div class="brand">
-          <h1>Crestvista Properties LTD</h1>
-          <span>Where Value Meets Excellence</span>
-      </div>
+<header class="header">
+  <div class="brand">
+    <img src="assets/icons/logo.png" class="site-logo" alt="logo">
+    <div>
+      <h1 style="margin:0">Crestvista Properties LTD</h1>
+      <div style="opacity:.9">Where Value Meets Excellence</div>
+    </div>
   </div>
-  <nav class="nav-links">
-      <a href="#properties">Properties</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
+  <nav>
+    <a href="properties.html">Properties</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
-
-
-
-<footer>
-  <p>Crestvista Properties LTD © 2025</p>
-<section id="contact-icons" class="contact-icons">
-  <a href="tel:+254758625209"><img src="assets/icons/phone.svg">0758625209</a>
-  <a href="mailto:info@crestvistapropertiesltd.co.ke"><img src="assets/icons/email.svg">Email</a>
-  <a href="https://wa.me/254739944751" target="_blank"><img src="assets/icons/whatsapp.svg">WhatsApp</a>
-</section>
+<main class="container">
+  <h2>Featured Properties</h2>
+  <section id="listings-grid" class="grid"></section>
+</main>
+<footer class="footer">
+  <div>&copy; Crestvista Properties LTD © 2025</div>
+  <div class="contact-icons" id="footer-icons">
+    <a href="tel:+254758625209"><img src="assets/icons/phone.svg" alt="phone"> 0758625209</a>
+    <a href="mailto:info@crestvistapropertiesltd.co.ke"><img src="assets/icons/email.svg" alt="email"> Email</a>
+    <a href="https://wa.me/254739944751" target="_blank"><img src="assets/icons/whatsapp.svg" alt="whatsapp"> WhatsApp</a>
+  </div>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
